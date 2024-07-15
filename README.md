@@ -4,10 +4,13 @@
   <p align="center">
     <a href="https://github.com/sindresorhus/awesome">
       <img alt="awesome list badge" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg">
-    </a>  
-    <a href="#buildstatus">
-      <img alt="build status badge" src="https://github.com/bkrem/awesome-  solidity/workflows/Build/badge.svg">  
+    </a>    
+    <a href="#buildstatus"> 
+      <img alt="build status badge" src="https://github.com/bkrem/awesome-  solidity/workflows/Build/badge.svg">    
     </a>
+    <!-- <a href="#buildstatus"> 
+      <img alt="build status badge" src="https://github.com/bkrem/awesome-  solidity/workflows/Build/badge.svg">    
+    </a> -->
 <!--     <a href="https://github.com/bkrem/awesome- solidity/graphs/contributors">
       <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/bkrem/awesome-solidity">
     </a> -->

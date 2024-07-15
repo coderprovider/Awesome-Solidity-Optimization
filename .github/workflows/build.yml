@@ -4,19 +4,19 @@ name: Build
 on:
   push:
     branches: [ master ]
-  pull_request:
+  pull_request: 
     branches: [ master ]
 
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
-        with:
+        with: 
           ruby-version: 2.6
-      - name: Install awesome_bot
+      - name: Install awesome_bot 
         run: gem install awesome_bot
-      - name: Check URLs  
+      - name: Check URLs    
         run: awesome_bot README.md --allow-redirect
