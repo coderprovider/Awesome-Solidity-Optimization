@@ -18,5 +18,5 @@ jobs:
           ruby-version: 2.6
       - name: Install awesome_bot
         run: gem install awesome_bot
-      - name: Check URLs
+      - name: Check URLs  
         run: awesome_bot README.md --allow-redirect
